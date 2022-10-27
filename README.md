@@ -71,7 +71,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ### Register Number:212221240011
 */
 ```
-### UP COUNTER:
+# UP COUNTER:
 
 module UC(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_up;
@@ -86,7 +86,7 @@ assign counter=counter_up;
 endmodule
 
 
-### DOWN COUNTER:
+# DOWN COUNTER:
 
 module DC(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_down;
