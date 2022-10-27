@@ -103,33 +103,33 @@ endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
-### Up Counter
+### Up Counter:
 
 <img width="1130" alt="RTL1" src="https://user-images.githubusercontent.com/93427522/198286715-aa99bf5c-dfa7-497d-b51a-ef8b567a8004.png">
 
 
-### Down Counter
+### Down Counter:
 
 <img width="990" alt="RTL2" src="https://user-images.githubusercontent.com/93427522/198286751-df312e40-a2e4-4e93-8f6a-6e9b0a37fd13.png">
 
 ### TIMING DIGRAMS FOR COUNTER  
 
-### Up Counter
+### Up Counter:
 
 ![TD1](https://user-images.githubusercontent.com/93427522/198287087-82fb0eb5-f54a-4d05-9309-8d7acf8da7ce.jpeg)
 
 
-### Down Counter
+### Down Counter:
 
 ![TD2](https://user-images.githubusercontent.com/93427522/198287117-376ae254-fefc-4525-8857-2702c8c85cdd.jpeg)
 
 ### TRUTH TABLE 
 
-### Up Counter
+### Up Counter:
 
 ![TT1](https://user-images.githubusercontent.com/93427522/198290799-2e8450bf-df1c-4588-94bc-2a19f756ee28.jpg)
 
-### Down Counter
+### Down Counter:
 
 ![TT2](https://user-images.githubusercontent.com/93427522/198290826-8317087f-c170-4c0a-83ac-7d0ac1a6c162.jpg)
 
