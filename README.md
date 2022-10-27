@@ -71,8 +71,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ### Register Number:212221240011
 */
 ```
-# UP COUNTER:
-
+### UP COUNTER:
 
 module UC(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_up;
@@ -87,7 +86,7 @@ assign counter=counter_up;
 endmodule
 
 
-# DOWN COUNTER:
+### DOWN COUNTER:
 
 module DC(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_down;
@@ -126,9 +125,15 @@ endmodule
 
 ### TRUTH TABLE 
 
+### Up Counter
+
+![TT1](https://user-images.githubusercontent.com/93427522/198290799-2e8450bf-df1c-4588-94bc-2a19f756ee28.jpg)
+
+### Down Counter
+
+![TT2](https://user-images.githubusercontent.com/93427522/198290826-8317087f-c170-4c0a-83ac-7d0ac1a6c162.jpg)
+
+### RESULT
+The 4 bit up and down counters has been implemented and validated the functionality.
 
 
-
-
-
-### RESULTS 
