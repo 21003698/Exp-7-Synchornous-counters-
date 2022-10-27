@@ -46,37 +46,81 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+1.Create a new project in QuartusII software.
+
+2.Name the project as uc for upcounter and dc for down counter.
+
+3.Create a new verilog hdl file in the project file.
+
+4.Name the module as dc and uc for down counter and up counter.
+
+5.Within the module declare input and output variables.
+
+6.Create a loop using if-else with condition parameter as reset value.
+
+7.End the loop.
+
+8.End the module.
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:Challa Sandeep
+Register Number:212221240011
 */
+# UP COUNTER:
 
 
+module UC(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_up;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_up<=4'd0;
+else
+counter_up<=counter_up+4'd1;
+end
+assign counter=counter_up;
+endmodule
 
 
+# DOWN COUNTER:
 
+module DC(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_down;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_down<=4'd0;
+else
+counter_down<=counter_down-4'd1;
+end
+assign counter=counter_down;
+endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+### Up Counter
+
+<img width="1130" alt="RTL1" src="https://user-images.githubusercontent.com/93427522/198286715-aa99bf5c-dfa7-497d-b51a-ef8b567a8004.png">
 
 
+### Down Counter
 
-
-
-
-
+<img width="990" alt="RTL2" src="https://user-images.githubusercontent.com/93427522/198286751-df312e40-a2e4-4e93-8f6a-6e9b0a37fd13.png">
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+### Up Counter
+
+![TD1](https://user-images.githubusercontent.com/93427522/198287087-82fb0eb5-f54a-4d05-9309-8d7acf8da7ce.jpeg)
 
 
+### Down Counter
 
+![TD2](https://user-images.githubusercontent.com/93427522/198287117-376ae254-fefc-4525-8857-2702c8c85cdd.jpeg)
 
 ### TRUTH TABLE 
 
