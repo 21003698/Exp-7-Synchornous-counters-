@@ -70,6 +70,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by:Challa Sandeep
 Register Number:212221240011
 */
+```
 # UP COUNTER:
 
 
@@ -99,6 +100,7 @@ counter_down<=counter_down-4'd1;
 end
 assign counter=counter_down;
 endmodule
+```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
